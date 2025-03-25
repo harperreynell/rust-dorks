@@ -1,0 +1,10 @@
+[package]
+name = "rust-dorks"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2.0.12"
+select = "0.6"
+reqwest = "0.12.15"
+tokio = { version = "1.44.1", features = ["rt", "rt-multi-thread", "macros"] }
